@@ -1,0 +1,93 @@
+header nav h1 {
+    display: inline;
+    font-size: 45px;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: inline;
+    float: right;
+    margin-top: 30px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav a {
+    text-decoration: none;
+}
+
+.banner {
+    height: 100px;
+}
+
+.banner p {
+    text-align: end;
+    font-size: 20px;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+.about-me h2 {
+    display: inline-block;
+    padding: 50px 0;
+    text-align: right;
+    padding-right: 50px;
+    width: 200px; /* replace with min-width later */
+}
+
+.about-me section {
+    display: inline;
+    width: 60%;
+    float: right;
+}
+
+.work-portfolio h2 {
+    display: inline-block;
+    padding: 100px 0;
+    text-align: right;
+    padding-right: 50px;
+    width: 200px; /* replace with min-width later */
+}
+
+.work-portfolio #portfolio-content {
+    display: inline;
+    float: right;
+}
+
+.work-portfolio #portfolio-content #acting-box {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+
+.work-portfolio #portfolio-content #dance-box {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+}
+
+.work-portfolio #portfolio-content #music-box {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: greenyellow;
+}
+
+.work-portfolio #portfolio-content #video-box {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+#contact-me hr2 {
+    display: inline-block;
+    padding: 100px 0;
+    text-align: right;
+    padding-right: 50px;
+    width: 200px; /* replace with min-width later */
+}
