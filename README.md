@@ -22,10 +22,9 @@ In the future, I would like to revisit this and add the following:
 My portfolio website has been uploaded as a repo to my GitHub. 
 You can view it here: https://rabrigo.github.io/professional-portfolio/
 
+![screenshot](Assets/images/screenshot-1.png)
 
-![alt text](Assets/images/screenshot-1.png)
-
-![alt text](Assets/images/screenshot-2.png)
+![screenshot](Assets/images/screenshot-2.png)
 
 
 ### Credits:
