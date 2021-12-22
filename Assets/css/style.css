@@ -1,93 +1,155 @@
+header nav {
+    margin: 25px 40px;
+}
+
 header nav h1 {
+    font-size: 75px;
     display: inline;
-    font-size: 45px;
 }
 
 header nav ul {
-    list-style-type: none;
     display: inline;
     float: right;
+    color: pink;
     margin-top: 30px;
 }
 
 header nav ul li {
-    display: inline;
+    display: inline; 
+    /* removing this causes alignment issues */
 }
 
-header nav a {
-    text-decoration: none;
+h2 {
+    display: inline-block;
+    padding-right: 20px;
+    font-size: 65px;
+    vertical-align: top;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .banner {
     height: 100px;
-}
-
-.banner p {
-    text-align: end;
-    font-size: 20px;
-    padding-top: 70px;
-    padding-bottom: 30px;
-}
-
-.about-me h2 {
-    display: inline-block;
-    padding: 50px 0;
+    background-color: blue;
     text-align: right;
-    padding-right: 50px;
-    width: 200px; /* replace with min-width later */
 }
 
-.about-me section {
-    display: inline;
-    width: 60%;
-    float: right;
+.banner h3 {
+    font-size: 25px;
+    padding-top: 60px;
+    margin-right: 40px;
 }
 
-.work-portfolio h2 {
-    display: inline-block;
-    padding: 100px 0;
+.aside-section {
+    padding-right: 40px;
     text-align: right;
-    padding-right: 50px;
-    width: 200px; /* replace with min-width later */
+    width: 30%;
+    margin: 30px 0;
 }
 
-.work-portfolio #portfolio-content {
-    display: inline;
+/* vertical bar for the aside sections */
+.aside-section #about-me-vert-bar {
     float: right;
+    height: 200px;
+    width: 2px;
+    background-color: blue;
+} 
+
+.about-me-text {
+    line-height: 1.5;
+    vertical-align: top;
+    width: 70%;
+    margin: 30px 0;
+    padding-right: 200px;
 }
 
-.work-portfolio #portfolio-content #acting-box {
-    display: inline-block;
-    height: 100px;
-    width: 100px;
+.about-me-text p {
+    margin-bottom: 18px;
+    text-align: left;
+}
+
+.aside-section #work-vert-bar {
+    float: right;
+    height: 200px;
+    width: 2px;
     background-color: blue;
 }
 
-.work-portfolio #portfolio-content #dance-box {
-    display: inline-block;
-    height: 100px;
-    width: 100px;
-    background-color: pink;
+.work-boxes {
+    /* display: block; */
+    width: 70%;
+    margin: 30px 0;
+    padding-right: 200px;
 }
 
-.work-portfolio #portfolio-content #music-box {
-    display: inline-block;
-    height: 100px;
-    width: 100px;
-    background-color: greenyellow;
+.work-boxes .acting-box {
+    background-color: blueviolet;
+    height: 800px;
+    width: 95%;
+    border: 15px blue solid;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    vertical-align: bottom;
 }
 
-.work-portfolio #portfolio-content #video-box {
-    display: inline-block;
-    height: 100px;
+.work-boxes .acting-box h3 {
+    margin-top: 600px;
+    height: 50px;
     width: 100px;
-    background-color: red;
+    background-color: blue;
+    padding: 20px;
 }
 
-#contact-me hr2 {
+.work-boxes .small-box-header {
+    margin-top: 40px;
+    height: 30px;
+    width: 100px;
+    background-color: blue;
+    padding: 10px;
+}
+
+.work-boxes .dance-box, .music-box, .video-box, .coding-box {
     display: inline-block;
-    padding: 100px 0;
-    text-align: right;
-    padding-right: 50px;
-    width: 200px; /* replace with min-width later */
+    background-color: rgb(91, 194, 122);
+    height: 100px;
+    width: 47%;
+    border: 10px blue solid;
+    margin: 10px 10px 10px 0;
+}
+
+.work-boxes .music-box {
+    background-color: skyblue;
+}
+
+.work-boxes .video-box {
+    background-color: rgb(255, 27, 27);
+}
+
+.work-boxes .coding-box {
+    background-color: rgb(226, 207, 33);
+}
+
+.contact-me-header {
+    display: inline-block;
+    padding-left: 60px;
+    padding-right: 30px;
+}
+
+.aside-section #contact-me-vert-bar {
+    display: inline-block;
+    height: 150px;
+    width: 2px;
+    background-color: blue;
+}
+
+#contact-me-links {
+    width: 60%;
+    margin: 50px;
+}
+
+#contact-me-links ul li {
+    display: inline;
 }
